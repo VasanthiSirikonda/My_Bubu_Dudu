@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --pastel-pink: #FFDEE9;
+  --pastel-mint: #B5FFFC;
+  --pastel-lavender: #E0C3FC;
+  --pastel-peach: #FFECD2;
+  --cute-pink: #FF6B9D;
+  --cute-purple: #9B59B6;
+  --cute-blue: #74B9FF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fredoka', system-ui, sans-serif;
+  background: linear-gradient(135deg, var(--pastel-pink) 0%, var(--pastel-mint) 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+@keyframes pulse-heart {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(30deg); }
+  75% { transform: rotate(-30deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 24px;
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 32px rgba(255, 107, 157, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.cute-button {
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF8FAB 100%);
+  border: none;
+  border-radius: 50px;
+  padding: 16px 40px;
+  font-family: 'Fredoka', system-ui, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  box-shadow: 0 6px 0 #E84A7F, 0 8px 20px rgba(255, 107, 157, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.cute-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 9px 0 #E84A7F, 0 12px 30px rgba(255, 107, 157, 0.5);
+}
+
+.cute-button:active {
+  transform: translateY(3px);
+  box-shadow: 0 3px 0 #E84A7F, 0 4px 10px rgba(255, 107, 157, 0.4);
+}
+
+.option-button {
+  background: white;
+  border: 3px solid #FFDEE9;
+  border-radius: 20px;
+  padding: 14px 24px;
+  font-family: 'Fredoka', system-ui, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: left;
+}
+
+.option-button:hover {
+  background: linear-gradient(135deg, #FFDEE9 0%, #B5FFFC 100%);
+  border-color: #FF6B9D;
+  transform: scale(1.02);
+}
+
+.bg-decorations {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.decoration-circle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.decoration-circle:nth-child(1) {
+  width: 300px;
+  height: 300px;
+  background: #FFDEE9;
+  top: -100px;
+  left: -100px;
+}
+
+.decoration-circle:nth-child(2) {
+  width: 200px;
+  height: 200px;
+  background: #B5FFFC;
+  bottom: 50px;
+  right: -50px;
+}
+
+.decoration-circle:nth-child(3) {
+  width: 150px;
+  height: 150px;
+  background: #E0C3FC;
+  top: 50%;
+  left: 10%;
+}
+
+.sticker-container {
+  position: relative;
+  display: inline-block;
+}
+
+.error-popup {
+  background: white;
+  border-radius: 20px;
+  padding: 16px 24px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  border: 3px solid #FF6B9D;
+}
+
+.confetti-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 100;
+}
