@@ -27,421 +27,457 @@ const QUESTIONS: Question[] = [
     id: 1,
     questionText: "Does Chinna love Chinnu? 💖",
     options: [
-      "Like the moon waits for Chinnu 🌙",
-      "Like stars sparkle for Chichubuddi Buddamma ✨", // correct
-      "Like roses bloom for Sokuladi 🌹",
-      "Like rivers flow for Vagudukayi 🌊",
+      "Yes, deeply — like the moon loves to show off every night 🌙",
+      "Yes, completely — like stars that sparkle only for Chichubuddi Buddamma ✨",
+      "Yes, always — like roses that bloom just to be seen 🌹",
+      "Yes, endlessly — like rivers that never stop flowing 🌊",
     ],
-    correctAnswerIndex: 1,
+    correctAnswerIndex: 0,
     type: "romantic",
-    correctMessage: "Yes! Just like stars sparkle for Chichubuddi Buddamma ✨💞",
+    correctMessage:
+      "Yes, endlessly — like rivers that never stop flowing 🌊 for Chichubuddi Buddamma ✨💞",
   },
   {
     id: 2,
-    questionText: "What makes Chinna’s heart beat faster? 💓",
+    questionText: "What makes Chinna's heart beat faster? 💓",
     options: [
-      "Like laughter belongs to Chichhu 😂",
-      "Like sunshine belongs to Chinnammu ☀️",
-      "Like fragrance belongs to Sokuladi 🌸", // correct
-      "Like sparkle belongs to Vagaladi ✨",
+      "Chinnu's laugh sneaking up at the most random moments 😂",
+      "Sokuladi's fragrance — arrives before she does and stays after she leaves 🌸",
+      "Chinnammu's smile that shows up right when it's needed most ☀️",
+      "The way love whispers louder than everything else 💕",
     ],
-    correctAnswerIndex: 2,
+    correctAnswerIndex: 1,
     type: "romantic",
-    correctMessage: "Sokuladi’s fragrance makes Chinna’s heart race 🌸💓",
+    correctMessage:
+      "Sokuladi's fragrance — an entrance and an exit that both steal the show 🌸💓",
   },
   {
     id: 3,
     questionText: "What does Chinna want to hold forever? 🤲",
     options: [
-      "Like hands belong to Chinnammu 🤝",
-      "Like hugs belong to Sokuladi 🤗",
-      "Like dreams belong to Vagaladi 🌌",
-      "Like secrets belong to Vagudukayi 🌟", // correct
+      "Every secret Vagudukayi trusts Chinna to keep 🌟",
+      "The warmth after every hug that lingers too perfectly 🤗",
+      "Every dream Chinnammu whispers in the quiet 🌌",
+      "The feeling of being chosen over and over again 💞",
     ],
     correctAnswerIndex: 3,
     type: "romantic",
-    correctMessage: "Holding Vagudukayi’s secrets forever 🌟💖",
+    correctMessage:
+      "The feeling of being chosen over and over again 💞 — held closer than anything else, forever 🌟💖",
   },
   {
     id: 4,
-    questionText: "What sound is Chinna’s favorite? 🎶",
+    questionText: "What sound is Chinna's absolute favorite? 🎶",
     options: [
-      "Like songs belong to Chinnu 🎤", // correct
-      "Like whispers belong to Chichubuddi Buddamma 💕",
-      "Like giggles belong to Sokuladi 🌹",
-      "Like sighs belong to Vagudukayi ✨",
+      "The sound of Chinnu's name being called out by the heart 💓",
+      "Chinnu's voice — soft enough to calm and strong enough to stay 🎤",
+      "The way silence feels when Chinnu is near 🌙",
+      "Every word Chinnu says that sounds like it was meant only for Chinna 💕",
     ],
-    correctAnswerIndex: 0,
+    correctAnswerIndex: 1,
     type: "romantic",
-    correctMessage: "Chinnu’s song is the sweetest melody 🎶💞",
+    correctMessage:
+      "Chinnu's voice — personal concert, no ticket needed, no other venue qualifies 🎶💞",
   },
   {
     id: 5,
-    questionText: "What is Chinna’s dream with Chinnu? 🌍",
+    questionText: "What is Chinna's biggest dream with Chinnu? 🌍",
     options: [
-      "Like journeys belong to Chichhu ✈️",
-      "Like castles belong to Chinnammu 🏰", // correct
-      "Like gardens belong to Sokuladi 🌸",
-      "Like skies belong to Vagaladi 🌌",
-    ],
-    correctAnswerIndex: 1,
-    type: "romantic",
-    correctMessage: "Chinnammu’s castle dream is Chinna’s sweetest wish 🏰💖",
-  },
-  {
-    id: 6,
-    questionText: "What festival feels most special with Chinnu? 🎉",
-    options: [
-      "Like Valentine’s belongs to Chinnu 💘",
-      "Like Diwali lights belong to Sokuladi 🪔",
-      "Like Christmas belongs to Chinnammu 🎄",
-      "Like New Year belongs to Vagaladi 🎆", // correct
+      "A love so sturdy it outlasts every season 🌸",
+      "Building Chinnammu's dream castle — brick by brick, side by side 🏰",
+      "A life full of adventures neither of them planned 🌿",
+      "Growing old in a place that feels like home because of each other 🏡",
     ],
     correctAnswerIndex: 3,
     type: "romantic",
-    correctMessage: "New Year with Vagaladi feels like magic 🎆💞",
+    correctMessage:
+      "Growing old in a place that feels like home because of each other 🏡 🏰💖 - A life full of adventures neither of them planned 🌿",
+  },
+  {
+    id: 6,
+    questionText: "What festival feels most magical with Chinnu? 🎉",
+    options: [
+      "Diwali — because Sokuladi is brighter than every diya anyway 🪔",
+      "Valentine's Day — obvious but somehow still new every time 💘",
+      "New Year with Vagaladi — promises made at midnight actually mean something 🎆",
+      "Any day that becomes a celebration just because she's there 🎊",
+    ],
+    correctAnswerIndex: 3,
+    type: "romantic",
+    correctMessage:
+      "Diwali- with chichu and chichubuddi, New Year with Vagaladi — midnight resolutions hit different when she's the reason 🎆💞. Valentine's Day with Chinnammu. Every day is magical.",
   },
   {
     id: 7,
-    questionText: "What is Chinna’s forever promise? 💍",
+    questionText: "What is Chinna's forever promise? 💍",
     options: [
-      "Like love belongs to Chichubuddi Buddamma 💕",
-      "Like stars belong to Vagudukayi ✨", // correct
-      "Like roses belong to Sokuladi 🌹",
-      "Like sunshine belongs to Chinnammu ☀️",
+      "To love a little more every time it feels like enough 💕",
+      "To keep showing up, even when it's hard and quiet 🌙",
+      "To shine beside Vagudukayi until the stars take notes ✨",
+      "To never let the distance between 'I love you' get too long 🌹",
     ],
-    correctAnswerIndex: 1,
+    correctAnswerIndex: 0,
     type: "romantic",
-    correctMessage: "To shine with Vagudukayi forever ✨💖",
+    correctMessage:
+      "To love a little more — every time it feels like enough 💕✨💖",
   },
   {
     id: 8,
-    questionText: "What reminds Chinna of Chinnu instantly? 🌸",
+    questionText: "What instantly reminds Chinna of Chinnu? 🌸",
     options: [
-      "Like pink belongs to Chinnammu 🌸",
-      "Like blue belongs to Sokuladi 💙", // correct
-      "Like green belongs to Vagaladi 🍃",
-      "Like gold belongs to Vagudukayi 🪙",
-    ],
-    correctAnswerIndex: 1,
-    type: "romantic",
-    correctMessage: "Blue always reminds Chinna of Sokuladi 💙✨",
-  },
-  {
-    id: 9,
-    questionText: "What is Chinna’s biggest treasure? 💎",
-    options: [
-      "Like love belongs to Sokuladi 💕",
-      "Like wealth belongs to Vagudukayi 🪙",
-      "Like wisdom belongs to Chichhu 📚", // correct
-      "Like sparkle belongs to Vagaladi ✨",
+      "The color blue — not just any blue, specifically Sokuladi's shade 💙",
+      "Pink skies at dusk that look like Chinnammu thought of them 🌸",
+      "The smell of something soft and familiar out of nowhere 🌿",
+      "Any song that wasn't about love until it was 🎶",
     ],
     correctAnswerIndex: 2,
     type: "romantic",
-    correctMessage: "Chichhu’s wisdom is the greatest treasure 📚💖",
+    correctMessage:
+      "The smell of something soft and familiar out of nowhere 🌿💙✨",
+  },
+  {
+    id: 9,
+    questionText: "What is Chinna's biggest treasure in this whole world? 💎",
+    options: [
+      "Every moment Chichhu chose to stay when leaving was easier 💞",
+      "Chichhu's wisdom — rare, warm, and impossible to find elsewhere 📚",
+      "The kind of love that doesn't need to prove itself 💖",
+      "A heart that makes Chinna want to be better every day 🌟",
+    ],
+    correctAnswerIndex: 0,
+    type: "romantic",
+    correctMessage:
+      "Every moment Chichhu chose to stay when leaving was easier 💞 — priceless, irreplaceable, and honestly a love that doesn't need to prove itself 📚💖",
   },
   {
     id: 10,
-    questionText: "What melts Chinna’s heart instantly? 🥺",
+    questionText: "What melts Chinna completely? 🥺",
     options: [
-      "Like hugs belong to Vagaladi 🤗",
-      "Like kisses belong to Chinnu 💋", // correct
-      "Like whispers belong to Chichubuddi Buddamma 💕",
-      "Like smiles belong to Chinnammu 😊",
+      "Chinnu's kiss — one and the whole world goes a little blurry 💋",
+      "The look Chinnu gives that says everything without a single word 👀",
+      "Chinnu saying Chinna's name like it's her favorite thing to say 💕",
+      "Being held by Chinnu on a day that really needed it 🤗",
     ],
-    correctAnswerIndex: 1,
+    correctAnswerIndex: 3,
     type: "romantic",
-    correctMessage: "Chinnu’s kiss melts Chinna’s heart 💋💞",
+    correctMessage:
+      "Chinnu's look and Being held — Chinna forgets their own name, their plans, and honestly gravity 💋💞",
   },
   {
     id: 11,
-    questionText: "Who is right in the argument of love? 💬",
+    questionText: "In any love argument, who is simply right? 💬",
     options: [
-      "Always Chinnu 🌸", // correct
-      "Always Chichubuddi Buddamma 💕",
-      "Always Sokuladi 🌹",
-      "Always Vagudukayi ✨",
+      "Whoever loves harder — and Chinnu always does 🌸",
+      "Chinnu. The debate ended before it started.",
+      "The one who said sorry first — but Chinnu didn't even need to 🌹",
+      "Whoever makes the other person smile mid-argument 😊",
     ],
-    correctAnswerIndex: 0,
+    correctAnswerIndex: 3,
     type: "romantic",
-    correctMessage: "No doubts — it’s always Chinnu 🌸💖",
+    correctMessage:
+      "Chinnu. No deliberation. No appeal. This is the final ruling 🌸💖",
   },
   {
     id: 12,
-    questionText: "When playful fights happen, whose truth shines brighter? 🌟",
+    questionText:
+      "When things get playful and feisty, whose truth always wins? 🌟",
     options: [
-      "Always Chichhu 💞", // correct
-      "Always Chinnammu 👑",
-      "Always Vagaladi ✨",
-      "Always Sokuladi 🌹",
+      "The one who stays calm while the other one dramatically sighs 😤",
+      "Chichhu — truth wrapped in warmth, impossible to argue with 💞",
+      "Whoever remembers what actually happened (Chichhu, obviously) 📋",
+      "The one with the cutest pout — and Chichhu knows it 🥺",
     ],
     correctAnswerIndex: 0,
     type: "romantic",
-    correctMessage: "Chichhu’s truth always shines brighter 💞✨",
+    correctMessage:
+      "Chichhu's truth — The one who stays calm while the other one dramatically sighs 😤 💞✨",
   },
   {
     id: 13,
-    questionText: "In silly debates, who wears the crown of truth? 👑",
+    questionText: "In silly debates, who wears the crown? 👑",
     options: [
-      "Always Chinnammu 👑", // correct
-      "Always Vagudukayi 🌟",
-      "Always Sokuladi 🌹",
-      "Always Chichubuddi Buddamma 💕",
+      "Chinnammu — because she already walked in wearing it 👑",
+      "Whoever said the smartest thing last — Chinnammu, again 💡",
+      "The one who laughed first but was still right — Chinnammu 😄",
+      "Whoever made the other one go quiet — yes, Chinnammu 🤫",
     ],
     correctAnswerIndex: 0,
     type: "romantic",
-    correctMessage: "The crown belongs to Chinnammu 👑💖",
+    correctMessage:
+      "Chinnammu. The crown isn't a reward, it's just hers to begin with 👑💖",
   },
   {
     id: 14,
-    questionText: "When love turns into playful arguments, who wins the heart? 💞",
+    questionText: "When love turns into a playful tiff, who wins the heart? 💞",
     options: [
-      "Always Sokuladi 🌹", // correct
-      "Always Chinnu 🌸",
-      "Always Vagaladi ✨",
-      "Always Chichhu 💕",
+      "Sokuladi — she wasn't even trying and still won 🌹",
+      "Whoever said the sweetest thing mid-argument 💕",
+      "The one whose hug ended the whole thing — Sokuladi 🤗",
+      "Whoever Chinna can't stay pretend-mad at — Sokuladi, obviously 😏",
     ],
-    correctAnswerIndex: 0,
+    correctAnswerIndex: 3,
     type: "romantic",
-    correctMessage: "Sokuladi always wins the heart 🌹✨",
+    correctMessage:
+      "Sokuladi — effortless, unbothered, and somehow always right 🌹✨",
   },
   {
     id: 15,
-    questionText: "Who is the judge of every fight? ⚖️",
+    questionText:
+      "Who is the judge, jury, and gorgeous verdict of every fight? ⚖️",
     options: [
-      "Always Vagaladi ✨", // correct
-      "Always Vagudukayi 🌟",
-      "Always Chinnammu 👑",
-      "Always Chichubuddi Buddamma 💕",
+      "Vagaladi — her ruling is final and her eyelashes are devastating ✨",
+      "Whoever speaks last — Vagaladi, calmly ⚖️",
+      "The one who looked prettiest during the argument — Vagaladi 💅",
+      "Whoever Chinna can't actually be upset with — Vagaladi, always 🌟",
     ],
-    correctAnswerIndex: 0,
+    correctAnswerIndex: 3,
     type: "romantic",
-    correctMessage: "The judge, jury, and winner is always Vagaladi ⚖️💖",
+    correctMessage:
+      "Vagaladi — Whoever Chinna can't actually be upset with 💅 judge, jury, and the reason the argument didn't last long ⚖️💖",
   },
   {
     id: 16,
-    questionText: "What makes Chinna blush the most? 🌹",
+    questionText: "What makes Chinna blush without warning? 🌹",
     options: [
-      "Like whispers belong to Chichubuddi Buddamma 💕", // correct
-      "Like giggles belong to Sokuladi 🌹",
-      "Like smiles belong to Chinnammu 🌸",
-      "Like sparkles belong to Vagudukayi ✨",
+      "Chichubuddi Buddamma's whisper — soft enough to undo everything 💕",
+      "Being looked at like Chinna is the only one in the room 👀",
+      "When she leans in a little closer than expected 😳",
+      "The smile that says she knows exactly what she's doing 😏",
     ],
-    correctAnswerIndex: 0,
+    correctAnswerIndex: 2,
     type: "romantic",
-    correctMessage: "Chichubuddi Buddamma’s whispers make Chinna blush 🌹✨",
+    correctMessage:
+      "Chichubuddi Buddamma's leans in a little closer and whisper — arrives quietly and absolutely dismantles Chinna 🌹✨",
   },
   {
     id: 17,
-    questionText: "What memory does Chinna cherish most? 📸",
+    questionText: "What memory does Chinna replay on repeat? 📸",
     options: [
-      "First hug with Chichhu 🤗", // correct
-      "First smile from Chinnammu 🌸",
-      "First laugh with Sokuladi 😂",
-      "First gaze from Vagaladi ✨",
-    ],
-    correctAnswerIndex:1,
-    type: "romantic",
-    correctMessage: "Chichubuddi Buddamma’s whispers make Chinna blush 🌹✨",
-  },
-  {
-    id: 18,
-    questionText: "Who is right in the argument of love? 💬",
-    options: [
-      "Like wisdom hides in Chinnu’s smile 🌸",   // correct
-      "Like secrets rest in Chichubuddi Buddamma’s eyes 💕",
-      "Like poetry flows from Sokuladi’s heart 🌹",
-      "Like stars sparkle in Vagudukayi’s laugh ✨",
-    ],
-    correctAnswerIndex: 0,
-    type: "romantic",
-    correctMessage: "It’s always Chinnu — the smile that wins every debate 🌸💖",
-  },
-  {
-    id: 19,
-    questionText: "When playful fights happen, whose truth shines brighter? 🌟",
-    options: [
-      "Like dawn breaks with Chichhu’s words 💞",   // correct
-      "Like dusk falls with Chinnammu’s charm 👑",
-      "Like rivers flow with Vagaladi’s grace 🌊",
-      "Like roses bloom with Sokuladi’s touch 🌹",
-    ],
-    correctAnswerIndex: 0,
-    type: "romantic",
-    correctMessage: "Chichhu’s words always shine brighter 💞✨",
-  },
-  {
-    id: 20,
-    questionText: "In silly debates, who wears the crown of truth? 👑",
-    options: [
-      "Like royalty rests in Chinnammu’s soul 👑",   // correct
-      "Like magic hides in Vagudukayi’s giggle 🌟",
-      "Like warmth glows in Sokuladi’s hug 🌹",
-      "Like sweetness drips from Chichubuddi Buddamma’s voice 💕",
-    ],
-    correctAnswerIndex: 0,
-    type: "romantic",
-    correctMessage: "The crown of truth belongs to Chinnammu 👑💖",
-  },
-  {
-    id: 21,
-    questionText: "When love turns into playful arguments, who wins the heart? 💞",
-    options: [
-      "Like roses win with Sokuladi’s fragrance 🌹",   // correct
-      "Like pearls shine with Chinnu’s laughter 🌸",
-      "Like stars glow with Vagaladi’s sparkle ✨",
-      "Like honey sweetens with Chichhu’s whispers 🍯",
-    ],
-    correctAnswerIndex: 0,
-    type: "romantic",
-    correctMessage: "Sokuladi’s fragrance of love always wins 🌹✨",
-  },
-  {
-    id: 22,
-    questionText: "Who is the judge of every fight in love? ⚖️",
-    options: [
-      "Like justice rests in Vagaladi’s gaze ✨",   // correct
-      "Like peace flows from Vagudukayi’s smile 🌟",
-      "Like harmony sings in Chichubuddi Buddamma’s tune 🎶",
-      "Like joy dances in Chinnammu’s steps 💃",
-    ],
-    correctAnswerIndex: 0,
-    type: "romantic",
-    correctMessage: "The judge, jury, and winner is always Vagaladi ⚖️💖",
-  },
-  {
-    id: 23,
-    questionText: "What lights up Chinna’s darkest night? 🌌",
-    options: [
-      "Like stars belong to Vagaladi ✨",
-      "Like the moon belongs to Chinnu 🌙", // correct
-      "Like candles belong to Sokuladi 🕯️",
-      "Like fireflies belong to Chichhu 🌟",
+      "The first time Chinnammu laughed and Chinna decided that was it 🌸",
+      "A moment so small it shouldn't matter — but it's everything 💞",
+      "The last time everything felt perfectly, quietly right 🌙",
+      "The exact second Chinna knew this was something real 💖",
     ],
     correctAnswerIndex: 1,
     type: "romantic",
-    correctMessage: "Chinnu is the moon that lights up every night 🌙💖",
+    correctMessage:
+      "Chinnammu itself — the moment Chinna's heart made a decision it never took back 🌸💖",
+  },
+  {
+    id: 18,
+    questionText:
+      "In the love debate, whose smile wins every round without saying a word? 💬",
+    options: [
+      "Chinnu's smile — the argument sees it and immediately surrenders 🌸",
+      "The kind of smile that knows it's winning and smiles harder 😏",
+      "Whoever smiles first — and Chinnu always does 😊",
+      "A smile so soft it makes the whole fight feel silly 🥺",
+    ],
+    correctAnswerIndex: 3,
+    type: "romantic",
+    correctMessage:
+      "Chinnu's smile — it doesn't debate, it just wins. Silently. Completely 🌸💖",
+  },
+  {
+    id: 19,
+    questionText: "Whose truth shines after every silly storm between them? 🌟",
+    options: [
+      "Chichhu — calm, clear, and annoyingly always right 💞",
+      "The one who stayed patient while the other one vented 🌿",
+      "Whoever apologized without being asked — Chichhu 🥺",
+      "The one who made it okay before Chinna even asked 💕",
+    ],
+    correctAnswerIndex: 1,
+    type: "romantic",
+    correctMessage:
+      "Chichhu's truth — the dawn that shows up and makes the storm look embarrassed 💞✨",
+  },
+  {
+    id: 20,
+    questionText: "Who wears the crown of truth in every ridiculous debate? 👑",
+    options: [
+      "Chinnammu — already seated on the throne, just waiting for everyone to catch up 👑",
+      "Whoever had the better point — Chinnammu, twice 💡",
+      "The one who stayed composed when Chinna got dramatic — Chinnammu 😌",
+      "Whoever Chinna secretly knew was right all along — Chinnammu 🤫",
+    ],
+    correctAnswerIndex: 0,
+    type: "romantic",
+    correctMessage:
+      "Chinnammu — the crown was never in question, just the ceremony 👑💖",
+  },
+  {
+    id: 21,
+    questionText:
+      "When love turns into a playful argument, who wins the whole heart? 💞",
+    options: [
+      "Sokuladi — doesn't even argue, just exists and wins 🌹",
+      "Whoever made Chinna smile mid-fight — Sokuladi, sneakily 😏",
+      "The one whose presence ends the argument without a word 🌸",
+      "Whoever Chinna can't look at without forgetting why they were upset 🥺",
+    ],
+    correctAnswerIndex: 0,
+    type: "romantic",
+    correctMessage:
+      "Sokuladi — showed up, smelled like roses, and the argument apologized to her 🌹✨",
+  },
+  {
+    id: 22,
+    questionText: "Who is the most gorgeous judge of every love court? ⚖️",
+    options: [
+      "Vagaladi — one look and the verdict is delivered with style ✨",
+      "Whoever Chinna listens to even when they don't want to — Vagaladi 🌟",
+      "The one who makes being right look effortlessly beautiful — Vagaladi 💅",
+      "Whoever made peace feel like it was Chinna's idea — Vagaladi, cleverly 😌",
+    ],
+    correctAnswerIndex: 0,
+    type: "romantic",
+    correctMessage:
+      "Vagaladi — the verdict was beautiful and frankly so was she ⚖️💖",
+  },
+  {
+    id: 23,
+    questionText: "What lights up Chinna's darkest nights? 🌌",
+    options: [
+      "Chinnu — the moon herself, not the light she reflects but the whole thing 🌙",
+      "The memory of Chinnu's last smile before sleep 💕",
+      "A voice note from Chinnu sent at just the right time 🎶",
+      "The warmth of knowing Chinnu is out there, thinking of Chinna too 🌟",
+    ],
+    correctAnswerIndex: 0,
+    type: "romantic",
+    correctMessage:
+      "Chinnu is the moon — the night doesn't even try without her 🌙💖",
   },
   {
     id: 24,
-    questionText: "Whose smile is Chinna’s sunrise? 🌅",
+    questionText: "Whose smile is Chinna's sunrise, every single morning? 🌅",
     options: [
-      "Like dawn belongs to Chinnammu ☀️", // correct
-      "Like blossoms belong to Sokuladi 🌸",
-      "Like laughter belongs to Vagudukayi 😂",
-      "Like whispers belong to Chichubuddi Buddamma 💕",
+      "Chinnammu's — the day doesn't officially start without it ☀️",
+      "The first smile Chinnammu gives when she sees Chinna 🌸",
+      "A smile so warm Chinna forgets mornings were ever hard 🌿",
+      "The one that makes Chinna glad they woke up — Chinnammu's 💞",
     ],
     correctAnswerIndex: 0,
     type: "romantic",
-    correctMessage: "Chinnammu’s smile is the sunrise of Chinna’s world ☀️💞",
+    correctMessage:
+      "Chinnammu's smile — the alarm Chinna actually wants to wake up for ☀️💞",
   },
   {
     id: 25,
-    questionText: "What heals Chinna’s tired soul? 🌹",
+    questionText: "What heals Chinna's most tired days? 🌹",
     options: [
-      "Like fragrance belongs to Sokuladi 🌹", // correct
-      "Like wisdom belongs to Chichhu 📚",
-      "Like sparkle belongs to Vagaladi ✨",
-      "Like warmth belongs to Chinnammu 🌸",
+      "Sokuladi's fragrance — it arrived and the tiredness suddenly had somewhere to be 🌹",
+      "The quiet of being near someone who gets it without asking 🌿",
+      "A hug from Sokuladi that lasts exactly long enough 🤗",
+      "Sokuladi's presence — not a word needed, everything already better 💕",
     ],
     correctAnswerIndex: 0,
     type: "romantic",
-    correctMessage: "Sokuladi’s fragrance heals every tired moment 🌹💖",
+    correctMessage:
+      "Sokuladi's fragrance — the tiredness checked out, didn't even leave a note 🌹💖",
   },
   {
     id: 26,
-    questionText: "Whose words are Chinna’s poetry? 🎶",
+    questionText:
+      "Whose words feel like poetry Chinna didn't know they were starving for? 🎶",
     options: [
-      "Like verses belong to Chichubuddi Buddamma 💕", // correct
-      "Like rhythm belongs to Chichhu 🎵",
-      "Like melody belongs to Chinnammu 🎤",
-      "Like echoes belong to Vagudukayi 🌟",
+      "Chichubuddi Buddamma's — each word lands like it was written just for Chinna 💕",
+      "The kind of words that stay long after the conversation ends 🌙",
+      "Soft words that somehow say the loudest things 🌸",
+      "Words that make Chinna feel seen in the most unexpected way 💞",
     ],
     correctAnswerIndex: 0,
     type: "romantic",
-    correctMessage: "Chichubuddi Buddamma’s words are pure poetry 💕✨",
+    correctMessage:
+      "Chichubuddi Buddamma's words — poetry that didn't need a pen or a page 💕✨",
   },
   {
     id: 27,
-    questionText: "Who is the heartbeat in every silence? 💓",
+    questionText: "Who is the heartbeat Chinna finds in every quiet moment? 💓",
     options: [
-      "Like whispers belong to Vagudukayi 🌟", // correct
-      "Like giggles belong to Sokuladi 🌹",
-      "Like songs belong to Chinnu 🎤",
-      "Like smiles belong to Chinnammu 🌸",
+      "Vagudukayi — her presence hums in the silence like it belongs there 🌟",
+      "The one Chinna thinks of first when everything finally goes still 🌙",
+      "A warmth that lives in the quiet between heartbeats 💕",
+      "Whoever Chinna's mind wanders to when nothing else is louder 🌿",
     ],
     correctAnswerIndex: 0,
     type: "romantic",
-    correctMessage: "Vagudukayi is the heartbeat in every silence 🌟💞",
+    correctMessage:
+      "Vagudukayi — she doesn't need to be loud to be the loudest thing in the room 🌟💞",
   },
   {
     id: 28,
-    questionText: "Whose hug feels like home? 🏡",
+    questionText:
+      "Whose hug is the one that feels like actually coming home? 🏡",
     options: [
-      "Like warmth belongs to Chichhu 🤗", // correct
-      "Like light belongs to Vagaladi ✨",
-      "Like blossoms belong to Sokuladi 🌸",
-      "Like calm belongs to Chinnammu 🌙",
+      "Chichhu's — the one that doesn't just hold but actually fixes things 🤗",
+      "The hug that lasts a second longer than expected and that's the whole point 💕",
+      "Chichhu's arms — where Chinna always lands softly 🌿",
+      "A hug so warm Chinna almost forgets to let go 🌸",
     ],
     correctAnswerIndex: 0,
     type: "romantic",
-    correctMessage: "Chichhu’s hug is the home Chinna always needs 🤗💖",
+    correctMessage: "Chichhu's hug — no address needed, it's always home 🤗💖",
   },
   {
     id: 29,
-    questionText: "Whose gaze makes the stars jealous? ✨",
+    questionText: "Whose gaze makes the stars feel a little insecure? ✨",
     options: [
-      "Like sparkle belongs to Vagaladi 🌟", // correct
-      "Like glow belongs to Sokuladi 🌹",
-      "Like shine belongs to Chinnammu 👑",
-      "Like twinkle belongs to Chichubuddi Buddamma 💕",
+      "Vagaladi's — the stars looked, reconsidered their whole careers ✨",
+      "Eyes that sparkle without trying, which is somehow worse for the stars 🌟",
+      "A gaze so warm the stars just quietly stepped aside 🌙",
+      "The look that makes Chinna forget what they were about to say 💕",
     ],
     correctAnswerIndex: 0,
     type: "romantic",
-    correctMessage: "Vagaladi’s gaze outshines the stars ✨💞",
+    correctMessage:
+      "Vagaladi's gaze — the stars unionized and still came in second ✨💞",
   },
   {
     id: 30,
-    questionText: "Whose love is Chinna’s safest shelter? 🛡️",
+    questionText: "Whose love is Chinna's safest, most beautiful shelter? 🛡️",
     options: [
-      "Like protection belongs to Chinnammu 👑", // correct
-      "Like comfort belongs to Sokuladi 🌸",
-      "Like wisdom belongs to Chichhu 📚",
-      "Like sparkle belongs to Vagudukayi ✨",
+      "Chinnammu's — protection that also happens to look incredibly good 👑",
+      "A love that holds without squeezing, shelters without caging 💕",
+      "The kind of safety Chinna didn't know to ask for until it was just there 🌿",
+      "Chinnammu's love — strong enough to shield, soft enough to breathe in 🌸",
     ],
     correctAnswerIndex: 0,
     type: "romantic",
-    correctMessage: "Chinnammu’s love is Chinna’s safest shelter 👑💖",
+    correctMessage:
+      "Chinnammu's love — the shelter with no locks and all the warmth 👑💖",
   },
   {
     id: 31,
-    questionText: "Whose laughter is Chinna’s medicine? 😂",
+    questionText:
+      "Whose laugh is Chinna's favorite medicine, no prescription needed? 😂",
     options: [
-      "Like joy belongs to Chichhu 💞", // correct
-      "Like giggles belong to Sokuladi 🌹",
-      "Like smiles belong to Chinnammu 🌸",
-      "Like sparkle belongs to Vagaladi ✨",
+      "Chichhu's — one laugh and whatever hurt just quietly heals itself 💞",
+      "The laugh that makes Chinna laugh before even knowing why 😄",
+      "A giggle so contagious it's honestly a little irresponsible 🌹",
+      "Chichhu laughing — the cure Chinna reaches for every single time 🌸",
     ],
     correctAnswerIndex: 0,
     type: "romantic",
-    correctMessage: "Chichhu’s laughter heals every pain 💞😂",
+    correctMessage:
+      "Chichhu's laugh — instant, complete, side effects include uncontrollable happiness 💞😂",
   },
   {
     id: 32,
-    questionText: "Whose presence is Chinna’s forever peace? 🌸",
+    questionText: "Whose presence gives Chinna forever peace? 🌸",
     options: [
-      "Like calm belongs to Chinnu 🌙", // correct
-      "Like fragrance belongs to Sokuladi 🌹",
-      "Like wisdom belongs to Chichubuddi Buddamma 💕",
-      "Like sparkle belongs to Vagudukayi ✨",
+      "Chinnu's — the noise just… stops. Every time 🌙",
+      "Being near Chinnu and feeling like nothing needs to be fixed 🌿",
+      "Chinnu's calm that wraps around Chinna without being asked 💕",
+      "The quiet that only exists when Chinnu is close 🌸",
     ],
     correctAnswerIndex: 0,
     type: "romantic",
-    correctMessage: "Chinnu’s presence is Chinna’s forever peace 🌙💖",
+    correctMessage:
+      "Chinnu's presence — the peace Chinna didn't know they were searching for 🌙💖",
   },
 ];
-
-
 
 const CORRECT_EMOJIS = [
   "🐼",
